@@ -2,8 +2,6 @@
 <head>  
 <title>Creating your first app with Flickr API</title>  
 <link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">  
-
-<link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">  
 </style>  
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>  
 <link rel="stylesheet" type="text/css" href="newflickr.css">
@@ -17,7 +15,7 @@
 </div>  
 </div>  
 <div class="row">  
-<div class="col-sm-4">  
+<div class="col-sm-4">  <!-- buttons for selecting the size of the pictures -->
 <button type="button" class="btn btn-default" id="small">small</button>  
 </div>  
 <div class="col-sm-4">  
@@ -33,6 +31,9 @@
 <hr>    
 </div>
 <br><br>
+
+<!-- this following container holds the pictures that are fetched from flickr.
+	The pictures are appended to the div tag with id as "result" -->
 <div class="container pictures">
 <div class="row">  
 <div id="results"></div>   

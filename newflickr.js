@@ -2,8 +2,10 @@
 var fl_url,result,selected_size;  
 var fl_url_size;
 var loop=0;
-//alert("who");
+/* The following url containes the object in JSON format and it accepts 30 pictures at a time
+The method used "flickr.photos.getRecent"*/
 fl_url = "https://api.flickr.com/services/rest/?method=flickr.photos.getRecent&api_key=390d39008ba38713f08359f7ac8e819a&per_page=30&format=json&nojsoncallback=1";  
+/* The following code sets the size of pictures requested by the user*/
 $(document).ready(function(){  
 $("#small").click(function(){  
 selected_size=75;  

@@ -1,5 +1,6 @@
 .container
-{width:1200px;
+{
+	width:1200px;
 }
 
 .containerbuttons
@@ -18,18 +19,16 @@
 
 .displaypics
 {
-	/*position: relative;*/
+	/* the container has a width of 1200px.There are 3 blocks in a single row of the grid.Each with size of 390px of 
+	width and 5px of margin on all sides.*/
 	width:390px;
 	height:350px;
 	margin:5px;
 	border:20px black;
-	/*background-color: lightblue;*/
 }
 
 img
 {
-	/*position:absolute;*/
-	/*align-self: center;*/
 	display:block;
 	box-shadow:10px 7px 20px black; 
 	margin:0 auto ;
