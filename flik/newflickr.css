@@ -1,0 +1,43 @@
+.container
+{
+	width:1200px;
+}
+
+.containerbuttons
+{
+		background-color: #efefef;
+		border-radius: 7px;
+
+}
+
+.btn-default
+{
+	width:100%;	
+	height: 5%;
+	border-radius: 7px;
+}
+
+.displaypics
+{
+	/* the container has a width of 1200px.There are 3 blocks in a single row of the grid.Each with size of 390px of 
+	width and 5px of margin on all sides.*/
+	width:390px;
+	height:350px;
+	margin:5px;
+	border:20px black;
+}
+
+img
+{
+	display:block;
+	box-shadow:10px 7px 20px black; 
+	margin:0 auto ;
+	max-width:100%;
+	max-height: 100%;
+}
+
+#button
+{
+	width: 30%;
+	height: 5%;
+}
