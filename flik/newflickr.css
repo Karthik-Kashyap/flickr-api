@@ -17,6 +17,24 @@
 	border-radius: 7px;
 }
 
+.col-sm-4 :hover
+{
+	z-index: 1000;
+
+}
+
+.col-sm-4 img:hover
+{
+	top:-30px;
+	left:-10px;
+	width:120%;
+	height: 120%;
+	border-radius: 2%;
+	transition:all 700ms ease-in-out;
+	-webkit-transition:all 200ms ease-in-out;
+	-o-transition:all 200ms ease-in-out;
+}
+
 .displaypics
 {
 	/* the container has a width of 1200px.There are 3 blocks in a single row of the grid.Each with size of 390px of 
